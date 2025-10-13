@@ -15,7 +15,7 @@ export default hopeTheme({
 
   favicon: "/蓝色花.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "Micok2003",
 
   docsDir: "src",
 
@@ -31,7 +31,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
+    description: "一名计算机系大学在读学生",
     intro: "/intro.html",
     medias: {
       BiliBili: "https://space.bilibili.com/542380943",
@@ -49,6 +49,18 @@ export default hopeTheme({
       "/demo/encrypt.html": {
         hint: "Password: 1234",
         password: "1234",
+      },
+      "/demo/layout.html": {
+        hint: "Password: ",
+        password: "123456@",
+      },
+      "/demo/markdown.html": {
+        hint: "Password: ",
+        password: "123456@",
+      },
+      "/demo/page.html": {
+        hint: "Password: ",
+        password: "123456@",
       },
     },
   },

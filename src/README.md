@@ -3,27 +3,27 @@ home: true
 layout: Blog
 icon: house
 title: 主页
-heroText: Micok's Blog
+heroText: 阿哈's Blog
 heroFullScreen: true
 tagline: 愿此行，终抵群星
 bgImage: https://free.picui.cn/free/2025/03/25/67e26f454f58e.jpg
 projects:
   - icon: folder-open
-    name: 项目名称
-    desc: 项目详细描述
+    name: 个人介绍
+    desc: 我的个人介绍
     link: https://你的项目链接
 
-  - icon: link
+  - icon: GitHub
     name: 链接名称
     desc: 链接详细描述
     link: https://链接地址
 
-  - icon: book
+  - icon: BiliBili
     name: 书籍名称
     desc: 书籍详细描述
     link: https://你的书籍链接
 
-  - icon: newspaper
+  - icon: ZhiHu
     name: 文章名称
     desc: 文章详细描述
     link: https://你的文章链接
@@ -32,6 +32,16 @@ projects:
     name: 小阿哈
     desc: 我的项目支持者
     link: https://你的伙伴链接
+
+  - icon: https://theme-hope-assets.vuejs.press/logo.svg
+    name: 自定义项目
+    desc: 自定义详细介绍
+    link: https://你的自定义链接
+
+  - icon: https://theme-hope-assets.vuejs.press/logo.svg
+    name: 自定义项目
+    desc: 自定义详细介绍
+    link: https://你的自定义链接
 
   - icon: https://theme-hope-assets.vuejs.press/logo.svg
     name: 自定义项目
