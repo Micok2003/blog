@@ -2,8 +2,7 @@
 home: true
 layout: Blog
 icon: house
-title: 博客
-heroImage: /蓝色花.svg
+title: 主页
 heroText: Micok's Blog
 heroFullScreen: true
 tagline: 愿此行，终抵群星
@@ -30,8 +29,8 @@ projects:
     link: https://你的文章链接
 
   - icon: user-group
-    name: 伙伴名称
-    desc: 伙伴详细介绍
+    name: 小阿哈
+    desc: 我的项目支持者
     link: https://你的伙伴链接
 
   - icon: https://theme-hope-assets.vuejs.press/logo.svg

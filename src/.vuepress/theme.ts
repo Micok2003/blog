@@ -4,14 +4,16 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://micok2003.github.io/blog/",
 
   author: {
     name: "阿哈",
-    url: "https://mister-hope.com",
+    url: "https://github.com/Micok2003",
   },
 
   logo: "/user.png",
+
+  favicon: "/蓝色花.svg",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
