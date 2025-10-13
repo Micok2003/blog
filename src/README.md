@@ -2,11 +2,11 @@
 home: true
 layout: Blog
 icon: house
-title: 博客主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: 阿哈home
+title: 博客
+heroImage: /蓝色花.svg
+heroText: Micok's Blog
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+tagline: 愿此行，终抵群星
 projects:
   - icon: folder-open
     name: 项目名称
