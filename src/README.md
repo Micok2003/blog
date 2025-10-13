@@ -7,6 +7,7 @@ heroImage: /蓝色花.svg
 heroText: Micok's Blog
 heroFullScreen: true
 tagline: 愿此行，终抵群星
+bgImage: https://free.picui.cn/free/2025/03/25/67e26f454f58e.jpg
 projects:
   - icon: folder-open
     name: 项目名称
@@ -38,7 +39,7 @@ projects:
     desc: 自定义详细介绍
     link: https://你的自定义链接
 
-footer: 自定义你的页脚文字
+footer: 阿哈的个人博客
 ---
 
 这是一个博客主页的案例。
