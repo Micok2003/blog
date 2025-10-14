@@ -1,4 +1,5 @@
 ---
+
 home: true
 layout: Blog
 icon: house
@@ -7,52 +8,37 @@ heroText: 阿哈's Blog
 heroFullScreen: true
 tagline: 愿此行，终抵群星
 bgImage: https://free.picui.cn/free/2025/03/25/67e26f454f58e.jpg
+bgImageDark: /moon.jpg
 projects:
-  - icon: folder-open
-    name: 个人介绍
-    desc: 我的个人介绍
-    link: https://你的项目链接
 
-  - icon: GitHub
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+- icon: address-card
+  name: 个人介绍
+  desc: 我的个人介绍
+  link: /intro.md
 
-  - icon: BiliBili
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+- icon: /assets/icon/github.svg
+  name: GitHub 账号
+  desc: 个人 GitHub 账号
+  link: https://github.com/Micok2003
 
-  - icon: ZhiHu
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
+- icon: /assets/icon/bilibili.svg
+  name: Bilibili
+  desc: 个人 B 站页面
+  link: https://space.bilibili.com/542380943
 
-  - icon: user-group
-    name: 小阿哈
-    desc: 我的项目支持者
-    link: https://你的伙伴链接
+- icon: book
+  name: 代码笔记
+  desc: 一些个人代码学习笔记
+  link: /posts/
 
-  - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
+- icon: music
+  name: 音乐库
+  desc: 愿你的心灵得到抚慰
+  link: https://music.163.com/
 
-  - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
-
-  - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
+- icon: video
+  name: 视频
+  desc: 我的视频主页
+  link: https://www.bilibili.com/
 
 footer: 阿哈的个人博客
----
-
-这是一个博客主页的案例。
-
-要使用此布局，你应该在页面前端设置 `layout: Blog` 和 `home: true`。
-
-相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home.html)。

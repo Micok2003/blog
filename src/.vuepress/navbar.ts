@@ -5,7 +5,7 @@ export default navbar([
   "/demo/",
   {
     text: "代码笔记",
-    icon: "pen-to-square",
+    icon: "book",
     prefix: "/posts/",
     children: [
       {
@@ -16,7 +16,7 @@ export default navbar([
           { text: "HTML", icon: "pen-to-square", link: "1" },
           { text: "CSS", icon: "pen-to-square", link: "2" },
           { text: "JavaScript", icon: "pen-to-square", link: "3" },
-          "4",
+          { text: "前端框架", icon: "pen-to-square", link: "4" },
         ],
       },
       {
@@ -39,20 +39,36 @@ export default navbar([
             icon: "pen-to-square",
             link: "3",
           },
-          "4",
+          {
+            text: "数据库",
+            icon: "pen-to-square",
+            link: "4",
+          },
+          {
+            text: "Linux系统",
+            icon: "pen-to-square",
+            link: "5",
+          },
         ],
       },
-      { text: "Python", icon: "pen-to-square", link: "cherry" },
-      { text: "数据结构", icon: "pen-to-square", link: "dragonfruit" },
-      { text: "操作系统", icon: "pen-to-square", link: "egg" },
-      { text: "计算机组成原理", icon: "pen-to-square", link: "maybe" },
-      "tomato",
-      "strawberry",
+      {
+        text: "其他",
+        icon: "pen-to-square",
+        prefix: "other/",
+        children: [
+          { text: "Python", icon: "pen-to-square", link: "python" },
+          { text: "数据结构", icon: "pen-to-square", link: "dragonfruit" },
+          { text: "操作系统", icon: "pen-to-square", link: "egg" },
+          { text: "计算机组成原理", icon: "pen-to-square", link: "maybe" },
+          "tomato",
+          "strawberry",
+        ],
+      },
     ],
   },
   {
     text: "娱乐一下",
-    icon: "book",
+    icon: "gamepad",
     link: "https://www.bilibili.com/",
   },
 ]);

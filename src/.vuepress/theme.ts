@@ -13,7 +13,7 @@ export default hopeTheme({
 
   logo: "/user.png",
 
-  favicon: "/蓝色花.svg",
+  favicon: "/assets/icon/blueflower.svg",
 
   repo: "Micok2003",
 
@@ -26,12 +26,12 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "阿哈的博客",
   displayFooter: true,
 
   // 博客相关
   blog: {
-    description: "一名计算机系大学在读学生",
+    description: "一名计算机系在读学生",
     intro: "/intro.html",
     medias: {
       BiliBili: "https://space.bilibili.com/542380943",
@@ -49,18 +49,6 @@ export default hopeTheme({
       "/demo/encrypt.html": {
         hint: "Password: 1234",
         password: "1234",
-      },
-      "/demo/layout.html": {
-        hint: "Password: ",
-        password: "123456@",
-      },
-      "/demo/markdown.html": {
-        hint: "Password: ",
-        password: "123456@",
-      },
-      "/demo/page.html": {
-        hint: "Password: ",
-        password: "123456@",
       },
     },
   },
