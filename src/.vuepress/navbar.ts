@@ -2,7 +2,6 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/demo/",
   {
     text: "代码笔记",
     icon: "book",
@@ -57,8 +56,8 @@ export default navbar([
         prefix: "other/",
         children: [
           { text: "Python", icon: "pen-to-square", link: "python" },
-          { text: "数据结构", icon: "pen-to-square", link: "dragonfruit" },
-          { text: "操作系统", icon: "pen-to-square", link: "egg" },
+          { text: "OpenList", icon: "pen-to-square", link: "openlist" },
+          { text: "OpenList Desktop", icon: "pen-to-square", link: "openlist-desktop" },
           { text: "计算机组成原理", icon: "pen-to-square", link: "maybe" },
           "tomato",
           "strawberry",
@@ -66,6 +65,7 @@ export default navbar([
       },
     ],
   },
+  "/demo/",
   {
     text: "娱乐一下",
     icon: "gamepad",
