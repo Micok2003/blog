@@ -1,2 +1,3 @@
 # blog
-阿哈的博客
+
+This is a blog project for micok.
