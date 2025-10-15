@@ -3,6 +3,11 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   {
+    text: "时间线",
+    icon: "clock",
+    link: "/timeline/",
+  },
+  {
     text: "代码笔记",
     icon: "book",
     prefix: "/posts/",
