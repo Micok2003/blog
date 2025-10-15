@@ -11,11 +11,103 @@ tag:
 
 # OpenList 使用
 
-## 标题 2
+## 一、Windows 安装
 
-这里是内容。
+### 获取 OpenList
 
-### 标题 3
+您可以在 [下载](https://doc.oplist.org.cn/guide/installation/download) 页面或 [GitHub Release](https://github.com/OpenListTeam/OpenList/releases) 下载待部署系统对应的二进制可执行文件。
+
+## 二、Windows 运行
+
+```bash
+使用方法：
+  openlist [命令]
+
+可用命令：
+  admin      显示管理员用户的信息及管理员用户密码相关操作
+  cancel2fa  删除管理员用户的 2FA
+  completion 生成指定 shell 的自动补全脚本
+  crypt      加密或解密本地文件或目录
+  help       显示命令帮助
+  kill       强制通过守护进程/进程 ID 文件终止 openlist 服务器进程
+  lang       生成语言 JSON 文件
+  restart    通过守护进程/进程 ID 文件重启 openlist 服务器
+  server     启动指定地址的服务器
+  start      静默启动 openlist 服务器，使用 `--force-bin-dir`
+  stop       与 kill 命令相同
+  storage    管理存储
+  version    显示当前 OpenList 版本
+
+标志参数：
+  --data string   数据文件夹（默认值 "data"）
+  --debug         启动时使用调试模式
+  --dev           启动时使用开发模式
+  --force-bin-dir 强制使用二进制文件所在目录作为数据目录
+  -h, --help      显示 openlist 命令帮助
+  --log-std       强制日志输出到标准输出
+  --no-prefix     禁用环境前缀
+
+使用 "openlist [命令] --help" 获取更多命令信息。
+```
+
+::: tip
+手动安装如果有如下提示：是因为你的 GLIBC 版本太低，建议下载 musl 版本。
+
+```txt
+lib64/libc.so.6: version `GLIBC_2.28' not found (required by ./openlist)
+accept: function not implemented
+```
+
+当你看到 `start server@0.0.0.0:5244` 的输出，之后没有报错，说明操作成功。 第一次运行时会输出初始密码。程序默认监听 5244 端口。 现在打开 `http://ip:5244` 可以看到登录页面。
+:::
+
+:::warning
+v3.25.0 以上版本将密码改成加密方式存储的 hash 值，无法直接反算出密码，如果忘记了密码只能通过重新 `随机生成` 或者 `手动设置`。
+:::
+
+## 三、Windows 守护进程
+
+用 **`.VBS`** 脚本启动和停止，分别创建两个脚本 分别是 `启动.vbs` 和 `停止.vbs`。 直接在和 OpenList 启动程序同级文件夹里面双击启动即可，不用担心没有反应，直接去浏览器访问即可。
+
+::: note 两个启动脚本
+启动.vbs
+
+```bash
+Dim ws
+Set ws = Wscript.CreateObject("Wscript.Shell")
+ws.run "openlist.exe server",vbhide
+Wscript.quit
+```
+
+停止.vbs
+
+```bash
+Dim ws
+Set ws = Wscript.CreateObject("Wscript.Shell")
+ws.run "taskkill /f /im openlist.exe",0
+Wscript.quit
+```
+
+脚本不会创建的可以自行下载：[**脚本下载**](https://www.alipan.com/s/DHPMhRtKUzY/folder/63e0961eae317bd4d4d945cda69dbb00f9837fb7)
+脚本不会使用的可以看看视频：[**参考视频**](https://www.bilibili.com/video/BV1wWYTzdE4B/) 如何实现 Windows 开机自启，可以参考上面提到的脚本使用视频
+:::
+
+::: note 信息
+对于所有平台，您可以使用以下命令来静默启动、停止和重新启动。 （v3.4.0 及更高版本）
+
+```bash
+openlist start
+openlist stop
+openlist restart
+```
+
+:::
+
+## 四、如何更新
+
+下载新版 OpenList，把之前的替换了即可。
+
+## 五、界面美化
 
 ### 设置
 
