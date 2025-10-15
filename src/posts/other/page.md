@@ -1,16 +1,16 @@
 ---
 # 这是文章的标题
-title: 页面配置
+title: 页面配置说明文档
 # 你可以自定义封面图片
 cover: /assets/images/cover1.jpg
 # 这是页面的图标
 icon: file
 # 这是侧边栏的顺序
-order: 3
+order: 5
 # 设置作者
-author: Ms.Hope
+author: 阿哈
 # 设置写作时间
-date: 2020-01-01
+date: 2025-09-01
 # 一个页面可以有多个分类
 category:
   - 使用指南
@@ -19,7 +19,7 @@ tag:
   - 页面配置
   - 使用指南
 # 此页面会在文章列表置顶
-sticky: true
+# sticky: true
 # 此页面会出现在星标文章中
 star: true
 # 你可以自定义页脚
@@ -50,8 +50,8 @@ title: 页面标题
 
 你可以在 Markdown 的 Frontmatter 中设置页面信息。
 
-- 作者设置为 Ms.Hope。
-- 写作日期为 2020 年 1 月 1 日
+- 作者设置为 阿哈。
+- 写作日期为 2025 年 9 月 1 日
 - 分类为 “使用指南”
 - 标签为 “页面配置” 和 “使用指南”
 
@@ -117,9 +117,9 @@ const MyComponent = defineComponent({
 - 一个卡片:
 
   ```component VPCard
-  title: Mr.Hope
-  desc: Where there is light, there is hope
-  logo: https://mister-hope.com/logo.svg
-  link: https://mister-hope.com
+  title: 阿哈
+  desc: 海上生明月，天涯共此时
+  logo: /user.png
+  link: https://micok2003.github.io/blog/
   background: rgba(253, 230, 138, 0.15)
   ```

@@ -4,6 +4,7 @@ index: false
 icon: book
 category:
   - 笔记
+order: 1
 ---
 
 <Catalog />

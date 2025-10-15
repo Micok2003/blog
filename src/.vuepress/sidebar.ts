@@ -4,10 +4,10 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "如何使用",
+      text: "一些有趣的页面",
       icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
+      prefix: "docs/",
+      link: "docs/",
       children: "structure",
     },
     {
@@ -20,7 +20,7 @@ export default sidebar({
     // {
     //   text: "幻灯片",
     //   icon: "person-chalkboard",
-    //   link: "https://ecosystem.vuejs.press/zh/plugins/markdown/revealjs/demo.html",
+    //   link: "powerpoint",
     // },
   ],
 });

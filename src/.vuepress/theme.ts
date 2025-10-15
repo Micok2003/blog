@@ -46,7 +46,7 @@ export default hopeTheme({
   // 加密配置
   encrypt: {
     config: {
-      "/demo/encrypt.html": {
+      "/docs/encrypt.html": {
         hint: "Password: 1234",
         password: "1234",
       },
@@ -104,9 +104,10 @@ export default hopeTheme({
     // },
 
     // 如果你需要幻灯片，安装 @vuepress/plugin-revealjs 并取消下方注释
-    // revealjs: {
-    //   plugins: ["highlight", "math", "search", "notes", "zoom"],
-    // },
+    revealjs: {
+      plugins: ["highlight", "math", "search", "notes", "zoom"],
+      themes: ["league"],
+    },
 
     // 在启用之前安装 chart.js
     // chartjs: true,

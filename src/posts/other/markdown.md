@@ -1,7 +1,7 @@
 ---
 title: Markdown 展示
 icon: fa6-brands:markdown
-order: 2
+order: 6
 category:
   - 使用指南
 tag:
