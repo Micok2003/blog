@@ -1,17 +1,22 @@
 ---
 # icon: circle-info
-icon: face-kiss-wink-heart
-cover: /assets/images/introduce.jpg
+# cover: /assets/images/introduce.jpg
 # 此页面会在文章列表置顶
 sticky: true
-# 禁用侧边栏
-sidebar: false
-# 禁用路径导航
-breadcrumb: false
-# 禁用编辑此页链接
-editLink: false
-# 禁用右侧标题列表
-toc: false
+home: true
+portfolio: true
+title: 档案主页
+# icon: user-tag
+welcome: 👋 你好，我是
+name: 阿哈
+# avatar: https://theme-hope-assets.vuejs.press/hero/conan.png
+bgImage: /assets/images/小白-日落-木栈道.png
+bgImageDark: /assets/images/傍晚路灯-山脉-水面.png
+titles:
+  - 一名在校大学生
+  - 计算机专业
+  - 学的是大数据相关知识
+footer: false
 ---
 
 # 个人介绍
@@ -27,6 +32,19 @@ toc: false
   link: https://micok2003.github.io/blog/
   background: rgba(253, 230, 138, 0.15)
   ```
+
+<div style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 15px; margin: 20px 0; background: #f6f8fa;">
+  <div style="display: flex; align-items: center; margin-bottom: 10px;">
+    <span style="font-size: 18px; margin-right: 10px;">♪</span>
+    <div>
+      <strong>妖精小姐的魔法邀约</strong>
+      <br><small>HOYO-MiX / 宴宁</small>
+    </div>
+  </div>
+  <audio controls style="width: 100%;">
+    <source src="assets/music/HOYO-MiX、宴宁 - 妖精小姐的魔法邀约 (Miss Elf's Magical Invitation).mp3" type="audio/mpeg">
+  </audio>
+</div>
 
 [^first]: Python 是一门解释型、动态的、高级的编程语言。
 [^second]: Java 是一种面向对象的编程语言。

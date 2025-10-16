@@ -46,10 +46,9 @@ export default navbar([
       { text: "Python", icon: "pen-to-square", link: "python" },
       { text: "OpenList", icon: "pen-to-square", link: "openlist" },
       { text: "OpenList Desktop", icon: "pen-to-square", link: "openlist-desktop" },
-      { text: "openlist使用", icon: "pen-to-square", link: "openlist-use" },
+      { text: "OpenList使用", icon: "pen-to-square", link: "openlist-use" },
       "page",
       "markdown",
-      "layout",
       "disable",
       // {
       //   text: "前端",

@@ -7,8 +7,8 @@ title: 主页
 heroText: 阿哈's Blog
 heroFullScreen: true
 tagline: 愿此行，终抵群星
-bgImage: https://free.picui.cn/free/2025/03/25/67e26f454f58e.jpg
-bgImageDark: /moon.jpg
+bgImage: /assets/images/勃朗峰-晨曦美景.png
+bgImageDark: /assets/images/星空-风景.png
 projects:
 
 - icon: address-card
