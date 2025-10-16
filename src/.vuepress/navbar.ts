@@ -49,7 +49,7 @@ export default navbar([
       { text: "OpenList使用", icon: "pen-to-square", link: "openlist-use" },
       "page",
       "markdown",
-      "disable",
+      "20250911",
       // {
       //   text: "前端",
       //   icon: "pen-to-square",
