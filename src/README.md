@@ -26,10 +26,20 @@ projects:
   desc: 个人 B 站页面
   link: https://space.bilibili.com/542380943
 
+- icon: laptop-code
+  name: 前端
+  desc: 前端学习笔记
+  link: /posts/front-end/
+
+- icon: server
+  name: 后端
+  desc: 后端学习笔记
+  link: /posts/server-end/
+
 - icon: book
-  name: 代码笔记
-  desc: 一些个人代码学习笔记
-  link: /posts/
+  name: 学习笔记
+  desc: 一些个人学习笔记
+  link: /posts/other/
 
 - icon: music
   name: 音乐库

@@ -1,10 +1,8 @@
 ---
 title: 其他
 index: false
-category:
-  - 笔记
 dir:
-  order: 2
+  order: 3
   text: 其他笔记
 ---
 
