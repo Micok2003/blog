@@ -34,7 +34,7 @@ export default navbar([
           { text: "Node.js", icon: "pen-to-square", link: "2" },
           { text: "后端框架", icon: "pen-to-square", link: "3" },
           { text: "数据库", icon: "pen-to-square", link: "4" },
-          { text: "Linux系统", icon: "pen-to-square", link: "5" },
+          { text: "Linux系统", icon: "fa6-brands:linux", link: "5" },
     ]
   },
   {
@@ -43,12 +43,12 @@ export default navbar([
     link: "/posts/other/",
     prefix: "posts/other/",
     children: [
-      { text: "Python", icon: "pen-to-square", link: "python" },
+      { text: "Python", icon: "fa6-brands:python", link: "python" },
       { text: "OpenList", icon: "pen-to-square", link: "openlist" },
       { text: "OpenList Desktop", icon: "pen-to-square", link: "openlist-desktop" },
       { text: "OpenList使用", icon: "pen-to-square", link: "openlist-use" },
       "page",
-      "markdown",
+      "echart-show",
       "20250911",
       // {
       //   text: "前端",

@@ -1,5 +1,5 @@
 ---
-icon: pen-to-square
+icon: fa6-brands:python
 date: 2025-10-10
 category:
   - 其他
